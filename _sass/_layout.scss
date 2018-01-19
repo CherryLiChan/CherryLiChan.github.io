@@ -73,14 +73,14 @@
 			}
 			&:after {
 				width: 0;
-				background-color: $MediumSpringGreen;
+				background-color: $PaleTurquoise;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
 			&:hover {
-				color: $MediumSpringGreen;
+				color: $PaleTurquoise;
 				background-color: $white;
 			}
 		}
