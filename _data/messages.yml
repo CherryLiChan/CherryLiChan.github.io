@@ -43,11 +43,10 @@ locales:
   # -------------------
   zh: &DEFAULT_ZH
     <<: *DEFAULT_ZH    # load English values as default
-    overview: "總覽"
-    toc: "目錄"
-    written_by: "撰寫者"
+    overview: "总览"
+    toc: "目录"
+    written_by: "撰写者"
     updated: "更新日期："
     share: "分享"
-  zh_TW:
+  zh_CN:
     <<: *DEFAULT_ZH     # use German translation for de_DE
-

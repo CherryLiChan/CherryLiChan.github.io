@@ -1,21 +1,26 @@
-# Site navigation links
+  # Site navigation links
 
-- title: Teaching 教学
-  url: /teaching/
-  excerpt: "含体验式教学及混合式教学"
-  image: learning_teaching.gif
-
-- title: i18nl10n
-  url: /i18nl10n/
-  excerpt: "含＂一带一路＂倡议"
-  image: Tower_of_Babel.jpg
-
-- title: SDG
-  url: /SDG/
-  excerpt: "可持续发展，含＂生态文明＂倡议"
-  image: 300x200.gif
-
-- title: Contact 联络我
+- title: 网页设计作品集
+  url: /portfolio/
+  excerpt: "黎婵的网页设计作品"
+  image: portfolio.gif
+  
+- title: 信息可视化作品集
+  url: /infovis/
+  excerpt: "黎婵的tableau作品"
+  image: infovis.gif
+  
+- title: web笔记
+  url: /posts/rwd/
+  excerpt: "网页设计笔记"
+  image: rwd-note.gif
+  
+- title: 信息可视化笔记
+  url: /posts/infovis/
+  excerpt: "信息可视化笔记"
+  image: infovis-note.gif
+  
+  - title: 联系我
   url: /contact/
   excerpt: "联络我"
-  image: Pigeon_post.jpg
+  image: contact me.gif
