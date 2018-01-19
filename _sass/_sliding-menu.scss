@@ -37,7 +37,7 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: $LightSalmon;
+    background: $FFCC99;
   }
   transition: $sliding-menu-animation;
   &.slide {
@@ -144,7 +144,7 @@
     }
     a:hover .teaser {
       opacity: 1;
-      border: 3px solid $LightSalmon;
+      border: 3px solid $FFCC99;
     }
     .title {
       display: block;
@@ -167,7 +167,7 @@
       }
     }
     .title:hover,.excerpt:hover,.teaser:hover{
-        color: $LightSalmon;
+        color: $FFCC99;
     }
   }
   .sub-menu-item > li a {
