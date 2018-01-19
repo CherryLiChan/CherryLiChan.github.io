@@ -26,7 +26,7 @@
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
-	color: $black;
+	color: #daa520;
 	font-family: $alt-font;
 	font-weight: 700;
 	@include font-size(20,no);
@@ -73,15 +73,15 @@
 			}
 			&:after {
 				width: 0;
-				background-color: $Magenta;
+				background-color: $GoldEnrod;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
 			&:hover {
-				color: $Magenta;
-				background-color: $FFCC99;
+				color: $GoldEnrod;
+				background-color: $white;
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $54FF9F;
+			color: #595959;
 			text-transform: uppercase;
 		}
 	}
@@ -189,7 +189,7 @@
 				p{
 					@include font-size(14,no);
 					font-family: $alt-font;
-					color: lighten($DDA0DD,60);
+					color: #daa520;
 				}
 			}
 		}
