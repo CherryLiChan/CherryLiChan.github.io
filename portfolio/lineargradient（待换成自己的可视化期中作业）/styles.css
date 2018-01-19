@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+	font: 14px/1 'Open Sans', sans-serif;
+	color: #555;
+	background: #FFFACD; 
+	
+}
+
+
+
+.CenterMe{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	text-transform: none;
+    height: 350px;
+	margin:0px 0px 20px;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#FA8072), to(rgba(255, 250, 205, 0.8)));  
+}  
+
+
+.other{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+    height: 400px;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#FFFACD), to(rgba(250, 128, 114, 0.9)));  
+}  
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1100px;
+  padding: 50px;
+  margin: 0 auto;
+  background: #ffffff;
+  
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16b'; }
+label[for*='4']:before { content: '\f1a9'; }
+label[for*='5']:before { content: '\f1A1'; }
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
