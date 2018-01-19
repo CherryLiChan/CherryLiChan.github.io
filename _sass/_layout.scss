@@ -73,14 +73,14 @@
 			}
 			&:after {
 				width: 0;
-				background-color: $GoldEnrod;
+				background-color: $MediumSpringGreen;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
 			&:hover {
-				color: $GoldEnrod;
+				color: $MediumSpringGreen;
 				background-color: $white;
 			}
 		}
