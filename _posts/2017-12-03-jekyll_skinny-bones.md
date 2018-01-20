@@ -2,11 +2,14 @@
 layout: article
 title:  "装Jekyll主题Skinny Bones"
 date:   2017-12-03 08:45:50 +0800
-categories: notes_tech Jekyll
+categories: posts rwd
 image:
   teaser: Jekyll_skinny_bones.jpg
   feature: Jekyll_skinny_bones.jpg
 ---
+
+##因为这篇文章是对搭建整个博客的声明，极有意义，故保留（文末有声明文章来源）
+
 Jekyll 有不少第三方开发的主题可以用，这篇文章简介[Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll)。
 
 {% include toc.html %}
@@ -60,3 +63,5 @@ Configuration file: C:/Users/me/Documents/GitHub/hanteng.github.io/_config.yml
 </code></pre>
 
 看到```Server running``` 字样代表运行成功，可以在```Server address```上执行使用，也就是在本地开一个浏览器输入该URL地址（上述為 ```http://127.0.0.1:4000/```）查看站点执行状况。
+
+转载自：[廖汉腾老师的博客](https://hanteng.github.io/) » [点击阅读原文](https://hanteng.github.io/notes_tech/jekyll/jekyll_skinny-bones/)
