@@ -95,8 +95,8 @@ so easy !
 
 
 - 双击 2017-12-03-jekyll_skinny-bones.md 打开
-```
 
+```
 ---
 layout: XX布局（如此文里的article）
 title:  "XX标题"
