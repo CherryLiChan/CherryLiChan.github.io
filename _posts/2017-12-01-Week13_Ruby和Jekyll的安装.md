@@ -19,9 +19,7 @@ week13笔记_Ruby和Jekyll的安装与应用
 1. [Flowcharts](https://mermaidjs.github.io/flowchart.html)
 1. [Jekyll 教程](http://wiki.jikexueyuan.com/project/jekyll/)
 
-## 安装与应用
-
-### **Ruby的安装**
+## 安装
 1. 点击安装老师给的下载包：rubyinstaller-2.4.2-2-*64.exe
 2. 按顺序依次1、2、3，分别安装
 3. 完成安装后，点击键盘：win+R，
@@ -29,7 +27,7 @@ week13笔记_Ruby和Jekyll的安装与应用
 5. 在Powershell界面输入“gem install bundle”
 6. 输入 gem install jekyll
 
-## **Ruby的应用**
+## 应用
 - 可搜索“[ruby rails girl](http://railsgirls.com/)”自行学习
 - [极客网站相关教程](http://127.0.0.1:4000/)
 - [jekyll在GitHub上的链接](https://github.com/jekyll)
