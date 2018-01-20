@@ -147,7 +147,7 @@ $ jekyll server
 
 ```
 
-原因： 没有安装 bundler ，执行安装 bundler 命令
+**原因：** 没有安装 bundler ，执行安装 bundler 命令
 
 ```
 
@@ -228,7 +228,7 @@ jekyll 3.1.1 | Error:  jekyll-sitemap
 ```
 表示 当前的 jekyll 版本是 3.1.1 ，无法使用 jekyll-sitemap 
 
-解决方法有两个
+**解决方法有两个**
 
 1. 打开当前目录下的 _config.yml 文件，把 gems: [jekyll-paginate,jekyll-sitemap] 换成 gems: [jekyll-paginate] ，也就是去掉jekyll-sitemap。
 
@@ -325,9 +325,9 @@ image:
 ```
 
 ## “总览”效果：
-```
-{% include toc.html %}
-```
+
+`{% include toc.html %}`
+
 
 <br>
 转载请注明：[黎婵的博客](https://cherrylichan.github.io/) » [点击阅读原文](https://cherrylichan.github.io/posts/rwd/first-step/)
