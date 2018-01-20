@@ -12,7 +12,7 @@ Week15课堂笔记  WSG4第十二章 图像和视频(Images&Video)
 {% include toc.html %}
 
 ## 可用网址
-- [简书上媒介融合/媒体融合/全媒体 Media convergence介绍——by喊疼](http://www.jianshu.com/p/fa4f07dcb669)
+- [简书上媒介融合/媒体融合/全媒体 Media convergence介绍——by廖汉腾老师](http://www.jianshu.com/p/fa4f07dcb669)
 - [AOL美国在线](https://www.aol.com/)
 
 ## 笔记
