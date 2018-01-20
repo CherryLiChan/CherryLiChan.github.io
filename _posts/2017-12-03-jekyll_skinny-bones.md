@@ -8,7 +8,7 @@ image:
   feature: Jekyll_skinny_bones.jpg
 ---
 
-##因为这篇文章是对搭建整个博客的声明，极有意义，故保留（文末有声明文章来源）
+## 本文是对搭建整个博客的声明，极有意义，故保留（文末有声明文章来源）
 
 Jekyll 有不少第三方开发的主题可以用，这篇文章简介[Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll)。
 
