@@ -4,8 +4,8 @@ title:  "图像和视频"
 date:   2017-12-14 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: 图像和视频.jpg
-  feature: 图像和视频.jpg
+  teaser: 图像和视频.png
+  feature: 图像和视频.png
 ---
 Week15课堂笔记  WSG4第十二章 图像和视频(Images&Video)
 
