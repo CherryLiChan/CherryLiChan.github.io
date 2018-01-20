@@ -1,17 +1,11 @@
 ---
-layout: post
-title: 绘制地图2P
-date: 2017-11-24
-tag: 信息可视化设计-笔记
---- 
----
 layout: article
-title:  "绘制地图2P"
+title:  "Note12_绘制地图(2P)"
 date:   2017-11-24 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: 绘制地图.jpg
-  feature: 绘制地图.jpg
+  teaser: draw-maps.gif
+  feature: draw-maps.gif
 ---
 ## Week12笔记
 
