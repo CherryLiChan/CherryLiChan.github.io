@@ -14,9 +14,8 @@ Week14课堂笔记 数据可视化协作
 {% include toc.html %}
 
 ## 提取数据
-1. 用jupyter打开
-> research_amap_search_NewMedia_cities_aggregate
-2. 输入自己的api_key
+1. 用jupyter打开**research_amap_search_NewMedia_cities_aggregate**
+2. 输入自己的**api_key**
 3. 改档名
 
 ## 处理数据
