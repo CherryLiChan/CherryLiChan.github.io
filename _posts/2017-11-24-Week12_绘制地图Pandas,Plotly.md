@@ -28,7 +28,7 @@ Week12笔记：绘制地图Pandas和plotly
 搜 D3.js
 
 
-转载请注明：[黎婵的博客](https://cherrylichan.github.io/) » [点击阅读原文](https://cherrylichan.github.io/2017/11/Week12_绘制地图:Pandas,Plotly/)
+转载请注明：[黎婵的博客](https://cherrylichan.github.io/) » [点击阅读原文](https://cherrylichan.github.io/posts/infovis/Week12_绘制地图Pandas,Plotly/)
 
 
 
