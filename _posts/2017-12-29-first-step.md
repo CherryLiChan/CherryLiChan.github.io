@@ -112,13 +112,13 @@ image:
 
 ```
 
-**title:** 显示的文章名， 如：title: 我的第一篇文章                    
-**date:**  显示的文章发布日期，如：date: 2016-10-16                          
-**categories:** 导航分类，如：categories: infovis
-**layout:**  文章使用的布局，如：layout: article
-**image:**  显示的图片
+- **title:** 显示的文章名， 如：title: 我的第一篇文章                    
+- **date:**  显示的文章发布日期，如：date: 2016-10-16                          
+- **categories:** 导航分类，如：categories: infovis
+- **layout:**  文章使用的布局，如：layout: article
+- **image:**  显示的图片
 
-**注意：** 文章头部格式必须为上面的，.... 就是文章的正文内容。
+- **注意：** 文章头部格式必须为上面的，.... 就是文章的正文内容。
 
 我写文章使用的是 **Sublime Text2 编辑器**，如果你对 markdown 语法不熟悉的话，可以看看[作业部落的教程](https://www.zybuluo.com/) 
 
