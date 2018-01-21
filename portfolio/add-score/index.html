@@ -1,16 +1,4 @@
----
-layout: article
-title:  "web-加分项"
-date:   2018-01-03 11:15:06 +0800
-categories: portfolio
-image:
-  teaser: add-score.png
-  feature: add-score.png
----
-
-WCY LOGO的改进
-
-
+<!doctype html>
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
@@ -18,7 +6,8 @@ WCY LOGO的改进
 	<meta name="description" content="改进文传院WCY LOGO并加过渡及动画的特效">
 	<meta name="viewport" content="width=device-width">
 	<meta name="theme-color" content="#cc99cc">
-	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="shortcut icon" href="1161235.ico"/>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 	<h1>WCY LOGO的改进</h1>
@@ -31,11 +20,11 @@ WCY LOGO的改进
 			<p class="svg_insert">5.通过CSS插入背景图像</p>
 			<p class="svg_insert">5.使用 JavaScript 添加 SVG 动画</p>
 			<p class="svg_insert">5.GreenSock 添加 SVG 动画</p>
-			<img  src="../images/posts/Week16_CSS3过渡、变形和动画//每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
+			<img  src="每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
 	</div>
 	<div>
 		<h3>二、优化缩减百分比:</h3>
-			<p class="svg_insert">1.优化SVG文件的最简单的方法是使用自动化工具，推荐使用[SVGOMG](https://jakearchibald.github.io/svgomg/)。</p>
+			<p class="svg_insert">1.优化SVG文件的最简单的方法是使用自动化工具，推荐使用SVGOMG（https://jakearchibald.github.io/svgomg/）。</p>
 			<p class="svg_opt">2.命名空间往往只是在生成SVG的程序中使用，所以在Web页面上展示SVG的时候它们并不是必需的。因此在优化流程中，为了减小SVG的大小，通常会把它的命名空间去掉。</p>
 			<p class="svg_opt">3.去掉不需要的元素（如标题和描述元素）</p>
 			<p class="svg_opt">4.g标签有助于图形编辑软件再次打开这个图像，因此这一部分无需去除</p>
@@ -48,11 +37,11 @@ WCY LOGO的改进
 	</div>
 	<div>
 		<h3>使用 img 标签插入SVG:</h3>
-		<img id="svgImg" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" alt="wcy_logo(new)2 SVG" />
+		<img id="svgImg" src="wcy_logo(new)2.svg" alt="wcy_logo(new)2 SVG" />
 	</div>
 	<div>
 		<h3>使用 object 标签插入SVG:</h3>
-		<object id="svgObject" data="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" type="image/svg+xml">
+		<object id="svgObject" data="wcy_logo(new)2.svg" type="image/svg+xml">
 			Your browser doesn't support SVG
 		</object>
 	</div>
@@ -82,7 +71,7 @@ WCY LOGO的改进
 
 		<svg>
 			<use xlink:href="#shapeInline" x="50" y="50" />
-			<use xlink:href="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg#shape" x="200" y="50" />
+			<use xlink:href="wcy_logo(new)2.svg#shape" x="200" y="50" />
 		</svg>
 		<script>
 
@@ -112,7 +101,7 @@ WCY LOGO的改进
 					<feGaussianBlur in="A" stdDeviation="6"/>
 			  </filter>
 		 </defs>
-		 <image x="0" y="0" height="250px" width="250px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" filter="url(#myfilter)"></image>
+		 <image x="0" y="0" height="250px" width="250px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="wcy_logo(new)2.svg" filter="url(#myfilter)"></image>
 	</svg>
 	</div>
 	<div class="wrapper">
@@ -156,13 +145,13 @@ WCY LOGO的改进
 	<div>
 		<h3>使用图像来作链接:</h3>
 			<a href="http://wcx.nfu.edu.cn/" class='link'>
-				<img border="0" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" />
+				<img border="0" src="wcy_logo(new)2.svg" />
 			</a>
 	</div>
 
 	<div>
 		<h3>当鼠标经过图片时，logo旋转90°:</h3>
-		<img id="xuanzhuan" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class='pic'>
+		<img id="xuanzhuan" src="wcy_logo(new)2.svg" class='pic'>
 		<style type='css/text'>
 		.pic:hover{
 			transform:rotate(90deg);
@@ -176,10 +165,10 @@ WCY LOGO的改进
 
 	<div>
 		<h3>当鼠标经过图片时，logo变成成其他图片:</h3>
-		<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" onmouseover="b();" id="a">
+		<image src="wcy_logo(new)2.svg" onmouseover="b();" id="a">
 		<script>
 			function b(){
-			document.getElementById('a').src="/images/posts/Week16_CSS3过渡、变形和动画/pacman.ico";
+			document.getElementById('a').src="pacman.ico";
 			}
 		</script>
 	</div>
@@ -188,7 +177,7 @@ WCY LOGO的改进
 		<h3>当鼠标经过图片时，logo覆盖多一层文字字幕:</h3>
 		<ul>
 			<li>
-			<img src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" width="300" height="300" alt="">
+			<img src="wcy_logo(new)2.svg" width="300" height="300" alt="">
 				<div class="cover">
 					<a href=""><i class="fa fa-plus"></i></a>
 					<h4>wcy</h4>
@@ -201,31 +190,27 @@ WCY LOGO的改进
 	<div>
 		<h3>CSS 的 2D 变形:</h3>
 		<nav>
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="scale" >
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="translate" >
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="rotate" >
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="skew" >
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="matrix" >
+			<image src="wcy_logo(new)2.svg" class="scale" >
+			<image src="wcy_logo(new)2.svg" class="translate" >
+			<image src="wcy_logo(new)2.svg" class="rotate" >
+			<image src="wcy_logo(new)2.svg" class="skew" >
+			<image src="wcy_logo(new)2.svg" class="matrix" >
 		</nav>
 	</div>
 	
 	<div class="flipper">
 		<h3>CSS 的 3D 变形之垂直变化:</h3>
 		<span class="flipper-object flipper-vertical">
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" >
+			<image src="wcy_logo(new)2.svg" >
 		</span>
 	</div>
 
 	<div class="flipper">
 	<h3>CSS 的 3D 变形之水平变化:</h3>
 		<span class="flipper-object flipper-horizontal">
-			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" >
+			<image src="wcy_logo(new)2.svg" >
 		</span>
 	</div>
 
 </body>
 </html>
-
----
-
-转载请注明：[黎婵的博客](https://cherrylichan.github.io) » [点击阅读原文](https://cherrylichan.github.io//2018/01/增加打赏功能/)     

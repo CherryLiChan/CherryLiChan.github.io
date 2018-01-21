@@ -1,0 +1,146 @@
+.star_Wrapper path {
+	stroke-width: 6px;
+}
+
+.has-StarBg {
+	background-image: url('wcy_logo(new)2.svg');
+	background-size: cover;
+	width: 198px;
+	height: 188px;
+}
+
+#svgImg {
+	font-family: sans-serif;
+	color: #fff;
+	text-indent: 2rem;
+	background-color: #bee6ef;
+	display: inline-flex;
+	flex: 1 1 20%;
+	align-self: stretch;
+	align-items: center;
+	text-decoration: none;
+	transition: box-shadow 1s;
+}
+
+#svgImg + #svgImg {
+border-left: 1px solid #aaa;
+}
+
+#svgImg:hover {
+box-shadow: inset 0 -3px 0 #1f13bf;
+}
+
+.link {
+font-family: sans-serif;
+color: #fff;
+text-indent: 1rem;
+display: inline-flex;
+flex: 1 1 20%;
+align-self: stretch;
+align-items: center;
+text-decoration: none;
+transition: box-shadow 1s;
+}
+
+.link + .link {
+border-left: 1px solid #aaa;
+}
+
+
+#xuanzhuan:hover{
+  transform:rotate(90deg);
+}
+
+* { margin: 0; padding: 0; }
+body { font-family: "Microsoft yahei", Arial; background: #fefef3; }
+.box { width: 500px; height: 500px; margin: 50px auto; }
+.box ul li { float: left; width: 190px; height: 190px; background: #f9f9f9; border: solid 10px #ebebeb; margin: 10px; list-style: none; position: relative; overflow: hidden; }
+.box ul li .cover a { width: 30px; height: 30px; background: #ffffff; display: block; border-radius: 50%; line-height: 30px; margin: 30px auto; }
+.box ul li .cover a i { color: red; }
+.box ul li .cover { width: 190px; height: 190px; background: rgba(218, 190, 239, 0.48); position: absolute; left: 0; top: 0; text-align: center; color: #7d0000; transform-origin: right bottom; -webkit-transform-origin: left top; -moz-transform-origin: right bottom; transform: rotate(90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(90deg); transition: all 0.35s; -webkit-transition: all 0.35s; -moz-transition: all 0.35s; }
+.box ul li .cover p { margin-top: 10px; font-size: 14px; }
+.box ul li:hover .cover { transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); }
+
+nav {
+	padding: 30px;
+}
+
+a {
+	display: inline-flex;
+	flex: 1 0 auto;
+	min-height: 88px;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 0 10px;
+	color: #ccc;
+	font-family: sans-serif;
+	align-items: center;
+	transition: transform 1s;
+}
+
+.scale:hover {
+	transform: scale(2);
+}
+
+.translate:hover {
+	transform: translate(-50px, -50px);
+}
+
+.rotate:hover {
+	transform: rotate(70deg);
+}
+
+.skew:hover {
+	transform: skew(70deg, 2deg);
+}
+
+.matrix:hover {
+	transform: matrix(-1.178, -0.256, -1.122, 1.333, -41.533, -1.989);
+}
+
+.flipper {
+	perspective: 400px;
+	position: relative;
+	width: 300px;
+	height: 44px;
+}
+
+.flipper + .flipper {
+	margin-top: 10em;
+}
+
+.flipper-object {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+
+.panel {
+	display: flex;
+	min-height: 44px;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+.flipper-vertical .back {
+	transform: rotateX(180deg);
+}
+
+.flipper-horizontal .back {
+	transform: rotateY(180deg);
+}
+
+.flipper:hover .flipper-vertical {
+	transform: rotateX(180deg);
+}
+
+.flipper:hover .flipper-horizontal {
+	transform: rotateY(180deg);
+}
