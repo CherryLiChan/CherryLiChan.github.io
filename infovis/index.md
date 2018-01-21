@@ -6,11 +6,13 @@ modified:
 excerpt: "黎婵的信息可视化作品集"
 tags: []
 image: 
-  feature: visualization.gif
+  feature: 
   teaser:
 ---
 
+- <a href="https://cherrylichan.github.io/infovis/visualization/%E6%9C%9F%E6%9C%AB%E9%A1%B9%E7%9B%AE/" target="_blank">![image](https://note.youdao.com/yws/api/personal/file/6A23B343DF0444B6A590DF2672164795?method=download&shareKey=e1ca4da924203dac25a013abff16ef07)</a>
 
+其他作品
 <div class="tiles">
 {% for post in site.categories.visualization %}
   {% include post-grid.html %}
