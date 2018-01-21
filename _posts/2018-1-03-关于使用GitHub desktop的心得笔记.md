@@ -43,14 +43,16 @@ image:
 如果你忘了存放的位置，可以通过GitHub desktop的 repository -> show in explorer 打开
 
 ##### 同步到网站上
-- 想在本地端修改后，把它更新到网站上？你做的任何修改都会出现在左侧的框框里，
-- ![github3.PNG](https://i.loli.net/2018/01/03/5a4ca0bb15ac5.png)
-- 然后可以为本次commit起个名字(summary),描述你做了什么(description)，再按右上方的Fetch origin。小圈圈转啊转，转完之后大功告成了，你github网站上就是最新的版本了。
-- ![github4.PNG](https://i.loli.net/2018/01/03/5a4ca0d804ee1.png)
+- 想在本地端修改后，把它更新到网站上？
+	1. 打开 GitHub desktop
+	2. 在 **change** 处选择你要同步的内容
+	3. 为本次commit起个名字(summary),描述你做了什么(description)
+	4. 点击 commit to master -> Fetch origin 上传，小圈圈转啊转，转完之后大功告成了，你github网站上就是最新的版本了。
 
 ##### 切换其他的repository
-- 想切换其他的repository来修改？按图来操作。
-- ![github2.PNG](https://i.loli.net/2018/01/03/5a4ca0f9354f8.png)
+- 想切换其他的repository来修改？
+	1. 点击current repository
+	2. 选择你想切换的 repository 即可
 
 ## 小帮助
 - [一个文科妹子分享了其半年摸索才明白的经验](https://www.zhihu.com/question/20070065 )
