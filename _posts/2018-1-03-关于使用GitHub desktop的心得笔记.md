@@ -4,8 +4,8 @@ title:  "关于使用GitHub desktop的心得笔记"
 date:   2018-01-10 22:07:50 +0800
 categories: posts rwd
 image:
-  teaser: github-desktop-icon.svg
-  feature: github-desktop-icon.svg
+  teaser: GitHub-desktop.jpg
+  feature: GitHub-desktop.jpg
 ---
 
 关于使用GitHub desktop的方法笔记
