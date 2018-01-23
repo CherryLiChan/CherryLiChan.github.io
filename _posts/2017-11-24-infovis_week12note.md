@@ -7,7 +7,7 @@ image:
   teaser: draw-maps.gif
   feature: draw-maps.gif
 ---
-Week12笔记：绘制地图Pandas和plotly
+Week12笔记：绘制地图Pandas和plotly 
 
 {% include toc.html %}
 

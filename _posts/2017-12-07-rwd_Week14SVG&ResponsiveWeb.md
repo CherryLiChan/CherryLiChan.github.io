@@ -4,8 +4,8 @@ title:  "SVG与响应式Web"
 date:   2017-12-07 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: SVG与响应式Web.png
-  feature: SVG与响应式Web.png
+  teaser: SVG&ResponsiveWeb.png
+  feature: SVG&ResponsiveWeb.png
 ---
 
 Week14课堂笔记 SVG与响应式Web设计

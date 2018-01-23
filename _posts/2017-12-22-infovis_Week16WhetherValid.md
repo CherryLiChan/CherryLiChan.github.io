@@ -4,8 +4,8 @@ title:  "数据比较无效及有效"
 date:   2017-10-27 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: 数据比较无效及有效.png
-  feature: 数据比较无效及有效.png
+  teaser: WhetherValid.png
+  feature: WhetherValid.png
 ---
 Week16笔记 数据比较无效及有效
 

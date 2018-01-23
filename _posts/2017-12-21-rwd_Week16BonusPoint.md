@@ -4,8 +4,8 @@ title:  "CSS3过渡/变形/动画"
 date:   2017-10-27 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: 加分作业笔记.jpg
-  feature: 加分作业笔记.jpg
+  teaser: BonusPoint.jpg
+  feature: BonusPoint.jpg
 ---
 Week16笔记 CSS3过渡/变形/动画（加分作业）
 

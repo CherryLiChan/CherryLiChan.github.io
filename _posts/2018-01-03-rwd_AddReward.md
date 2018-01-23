@@ -4,8 +4,8 @@ title:  "增加打赏功能"
 date:   2018-01-03 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: 打赏1.jpg
-  feature: 打赏1.jpg
+  teaser: reward.jpg
+  feature: reward.jpg
 ---
 为网站增加打赏功能
 本文将讲解如何创建支付宝/微信打赏功能的问题

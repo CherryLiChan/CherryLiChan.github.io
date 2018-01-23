@@ -4,8 +4,8 @@ title:  "高德地图期末项目"
 date:   2018-01-05 22:07:50 +0800
 categories: infovis visualization
 image:
-  teaser: 期末项目.png
-  feature: 期末项目.png
+  teaser: FinalProject.png
+  feature: FinalProject.png
 ---
 高德地图期末项目
 

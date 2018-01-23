@@ -4,8 +4,8 @@ title:  "数据可视化协作Tableau"
 date:   2017-12-15 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: 数据可视化协作.jpg
-  feature: 数据可视化协作.jpg
+  teaser: VisualizationCollaboration.jpg
+  feature: VisualizationCollaboration.jpg
 ---
 Week14课堂笔记 数据可视化协作
 

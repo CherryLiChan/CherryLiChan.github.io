@@ -4,8 +4,8 @@ title:  "头像效果"
 date:   2018-01-03 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: 头像效果.jpg
-  feature: 头像效果.jpg
+  teaser: ImageEffect.jpg
+  feature: ImageEffect.jpg
 ---
 
 此文是我原fork的博客的头像效果的说明，效果暂时无法在此博客呈现，因此制作了下面的动图

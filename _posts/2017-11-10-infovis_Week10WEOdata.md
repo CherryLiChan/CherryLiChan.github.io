@@ -4,8 +4,8 @@ title:  "Week10_WEO数据"
 date:   2017-11-10 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: 联合国货币基金组织.jpg
-  feature: 联合国货币基金组织.jpg
+  teaser: WEO.jpg
+  feature: WEO.jpg
 ---
 Week10笔记 课堂小测试（tableau联动）
 
