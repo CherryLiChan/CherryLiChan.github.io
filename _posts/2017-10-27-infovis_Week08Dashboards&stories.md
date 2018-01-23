@@ -4,8 +4,8 @@ title:  "仪表板和故事"
 date:   2017-10-27 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: Dashboards&stories.jpg
-  feature: Dashboards&stories.jpg
+  teaser: DashboardsStories.jpg
+  feature: DashboardsStories.jpg
 ---
 Week08笔记_仪表板和故事
 

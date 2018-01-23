@@ -4,8 +4,8 @@ title:  "界面设计"
 date:   2017-11-16 22:07:50 +0800
 categories: posts rwd
 image:
-  teaser: UI-design.jpg
-  feature: UI-design.jpg
+  teaser: UIDesign.jpg
+  feature: UIDesign.jpg
 ---
 Week11笔记 界面设计
 

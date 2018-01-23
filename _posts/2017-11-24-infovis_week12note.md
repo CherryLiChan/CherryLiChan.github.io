@@ -4,8 +4,8 @@ title:  "Note12_绘制地图(2P)"
 date:   2017-11-24 21:14:24 +0800
 categories: posts infovis
 image:
-  teaser: draw-maps.gif
-  feature: draw-maps.gif
+  teaser: DrawMaps.gif
+  feature: DrawMaps.gif
 ---
 Week12笔记：绘制地图Pandas和plotly 
 

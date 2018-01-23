@@ -4,8 +4,8 @@ title:  "关于搭建此博客的那些事儿"
 date:   2017-12-02 21:14:24 +0800
 categories: posts rwd
 image:
-  teaser: built-blog.jpg
-  feature: built-blog.jpg
+  teaser: BuiltBlog.jpg
+  feature: BuiltBlog.jpg
 ---
 
 本文是我搭建此博客的一些笔记，多方面参考后的成果，如有不足，欢迎指正。

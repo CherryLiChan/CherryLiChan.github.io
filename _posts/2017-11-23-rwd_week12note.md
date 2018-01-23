@@ -4,8 +4,8 @@ title:  "CSS3新特性及高级技术"
 date:   2017-11-23 22:07:50 +0800
 categories: posts rwd
 image:
-  teaser: rwd-week12note.jpg
-  feature: rwd-week12note.jpg
+  teaser: RwdWeek12Note.jpg
+  feature: rwdweek12note.jpg
 ---
 Week12课堂笔记_CSS3新特性及高级技术(尚未完善)
 
